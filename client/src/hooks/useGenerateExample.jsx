@@ -8,7 +8,7 @@ const useGenerateExample = (operation) => {
 
     const generateNewExample = async () => {
         try {
-            const response = await fetch(`https://localhost:5000/generate/${operation}`);
+            const response = await fetch(`https://math-app-rkev.onrender.com/generate/${operation}`);
             // const response = await fetch(`https://react-project-t4ti.onrender.com/generate/${operation}`);
             const data = await response.json();
 
