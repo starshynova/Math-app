@@ -1,6 +1,6 @@
 export const getOperationName = async () => {
   try {
-    const response = await fetch("http://localhost:5000/api/math-operation");
+    const response = await fetch("https://math-app-rkev.onrender.com/api/math-operation");
     // const response = await fetch("https://react-project-t4ti.onrender.com/api/math-operation");
     const data = await response.json();
     console.log(data);
