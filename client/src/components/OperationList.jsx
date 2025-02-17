@@ -10,7 +10,7 @@ const OperationList = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            const result = await fetch("http://localhost:5000/api/math-operation");
+            const result = await fetch("https://math-app-rkev.onrender.com/api/math-operation");
             const data = await result.json();
             setData(data);
         };
